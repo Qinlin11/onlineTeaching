@@ -1,0 +1,49 @@
+{
+  "name": "jsj211",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.1.0",
+    "@tencentcloud/tuiroom-engine-js": "^1.5.1",
+    "@vue-office/docx": "^1.6.0",
+    "@vue-office/excel": "^1.6.0",
+    "@vue-office/pdf": "^1.6.0",
+    "axios-https-proxy-fix": "^0.17.1",
+    "element-plus": "^2.4.2",
+    "element-tiptap-vue3-fixed": "^1.2.3",
+    "events": "^3.3.0",
+    "mitt": "^3.0.1",
+    "pinia": "^2.1.6",
+    "pinia-plugin-persistedstate": "^3.2.0",
+    "qs": "^6.11.2",
+    "socket.io-client": "^4.7.2",
+    "trtc-js-sdk": "^4.15.14",
+    "uuid": "^9.0.1",
+    "vite-plugin-compression": "^0.5.1",
+    "vue": "^3.3.4",
+    "vue-demi": "^0.14.6",
+    "vue-i18n": "^9.5.0",
+    "vue-router": "^4.2.4",
+    "wangeditor": "^4.7.15"
+  },
+  "devDependencies": {
+    "@iconify-json/ep": "^1.1.12",
+    "@vitejs/plugin-vue": "^4.3.4",
+    "axios": "^1.6.2",
+    "eslint": "^8.49.0",
+    "eslint-plugin-import": "^2.28.1",
+    "eslint-plugin-vue": "^9.17.0",
+    "less": "^4.2.0",
+    "sass": "^1.69.2",
+    "unplugin-auto-import": "^0.16.7",
+    "unplugin-icons": "^0.17.0",
+    "unplugin-vue-components": "^0.25.2",
+    "vite": "^4.4.9"
+  }
+}
